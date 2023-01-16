@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/logo.png" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Quiz filmes</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imgs/logo.png" alt="logo">
+    </header>
+    <main class="principal">
+        <div class="conteudo" id="conteudo">
+            <h1 class="titulo" id="titulo">Que filme é esse?</h1>
+            <img src="" alt="" class="imagem" id="imagem">
+            <div class="opcoes">
+                <button class="op" id="1" onclick="selecionarOpcao(this)">opcao 1</button>
+                <button class="op" id="2" onclick="selecionarOpcao(this)">opcao 2</button>
+                <button class="op" id="3" onclick="selecionarOpcao(this)">opcao 3</button>
+                <button class="op" id="4" onclick="selecionarOpcao(this)">opcao 4</button>
+            </div>
+        </div>
+        <div class="resultado" id="resultado">
+            <h1 class="titulo" id="titulo">Pontuação</h1>
+            <div id="pontos" class="pontos">
+                <img src="" alt="" class="imgResultado" id="imgResultado">
+                <p id="pontuacaoFinal"></p>
+                <p id="txtResultado"></p>
+                <button id="jogarNovamente" onclick="jogarNovamente()">Jogar Novamente</button>
+            </div>
+        </div>
+       
+    </main>   
+    <script src="script.js"></script>
+</body>
+</html>

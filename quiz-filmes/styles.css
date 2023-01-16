@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+}
+body{
+    background-image: url(imgs/fundo.png);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    box-shadow: 0px 4px 4px rgba(226, 37, 233, 0.7);
+    position: relative;
+}
+.logo{
+   width: 100px; 
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+.titulo{
+    color: #08E7FD;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+.imagem {
+    height: 25vh;
+    width: 70vw;
+    border-radius: 15px;
+}
+@media screen and (min-width: 1440px){
+    .imagem{
+        height: 45vh;
+        width: 50vw;
+    }
+    .opcoes {
+        width: 50vw;
+    }
+}
+.opcoes  {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
+.op {
+    background-color: #08E7FD;
+    box-shadow: 1px 1px 0 rgb(226, 37, 233);
+    height: 5vh;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.op:hover{
+    background-color: #02acbb;
+}
+
+@media screen and (max-width: 1439px){
+    .opcoes{
+        width: 70vw;
+    }
+}
+#resultado {
+    align-items: center;
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pontos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+    text-align: justify;
+    background-color: rgba(0, 0, 0 , 0.9);
+    font-size: medium;
+    color: white;
+    width: 75vw;
+    height: 40vh;
+    border: 1px solid rgba(226, 37, 233, 0.7);
+    border-radius: 15px;
+}
+.imgResultado{
+    width: 60vw;
+    height: 20vh;
+    border-radius: 15px;
+}
+#pontuacaoFinal {
+    font-size: 40px;
+}
+#jogarNovamente{
+    background-color: #08E7FD;
+    box-shadow: 1px 1px 0 rgb(226, 37, 233);
+    height: 6vh;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#jogarNovamente:hover{
+    background-color: #02acbb;
+}
+@media screen and (min-width: 1440px){
+    .pontos {
+        width: 55vw;
+        height: 50vh;
+        font-size: larger;
+    }
+    .imgResultado{
+        width: 40vw;
+        height: 30vh;
+    }
+    #jogarNovamente{
+        width: 15vw;
+        height: 5vh;
+        text-transform: uppercase;
+    }
+}
