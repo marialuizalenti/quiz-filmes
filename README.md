@@ -3,6 +3,18 @@
 ## Sobre
 <p>Divertido quiz sobre filmes, tente adivinhar o nome do filme observando apenas uma cena.</p>
 
-## Layout Web
-<img src="imgs/questao.PNG" width="500"/>
-<img src="imgs/resultado.PNG" width="500"/>
+## Web <img src="https://media.giphy.com/media/FWyLGar0fQADQeKWYc/giphy.gif" width="40"/>
+<li>Questões:</li><br>
+<img src="quiz-filmes/imgs/questao.PNG"/>
+<li>Resultado:</li>
+<img src="quiz-filmes/imgs/resultado.PNG"/>
+
+## Mobile <img src="https://media.giphy.com/media/SQTSmiJl0uKoZNdv1T/giphy.gif" width="40"/>
+<li>Questões:</li><br>
+<img src="quiz-filmes/imgs/questaoMobile.PNG"/> 
+
+<li>Resultado:</li>
+<img src="quiz-filmes/imgs/resultadoMobile.PNG"/>
+
+## Tecnologias Usadas
+<img src="https://media.giphy.com/media/zbMRZx113HKBkeCwrm/giphy.gif" width="200"/>
